@@ -5,7 +5,6 @@ __postgresql_bin_path: "/usr/lib/postgresql/{{ __postgresql_version }}/bin"
 __postgresql_config_path: "/etc/postgresql/{{ __postgresql_version }}/main"
 __postgresql_daemon: postgresql
 __postgresql_packages:
-  - "postgresql-{{ __postgresql_version }}"
   - postgresql-contrib
   - libpq-dev
 postgresql_python_library: python3-psycopg2
